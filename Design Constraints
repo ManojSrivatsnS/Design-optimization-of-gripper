@@ -1,0 +1,15 @@
+For any mechanical movement to be feasible, the geometric constraints need to be evaluated. This is rudimentary in kinematic analysis;
+
+1)	The maximum width possible by the gripper jaws should be less than the allowed/minimum dimensions of the object to be gripped.
+
+W_1 (x)=[O_min ]≥[h(x,Z_(max⁡)) ];          (1)
+
+, the end to end distance between the 3 teeth needs to be calculated differently, which is given by  
+
+h(x,Z_(max⁡)) )=(√3)(Y_max (x,Z_max);       (2)
+
+2)	At rest position, or zero actuator displacement, the distance between the gripper ends should be less than the distance between the end of gripper jaws at maximum actuator displacement. 
+
+𝑤2(𝑥) = (ℎ(𝑥, 𝑍𝑚𝑎𝑥)) ≥ ℎ(𝑥, 0);         (3)
+
+
