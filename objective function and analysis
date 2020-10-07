@@ -1,0 +1,25 @@
+Objective Function:
+
+1) For considered pressure input, the range of gripping force should be maximum. To enable that, the maximum possible gripping force at optimal design parameters should be of higher range while the minimum probable gripping force at the same optimal parameters should be of lower range; This enables a wide array of force range that a chose set of link parameters can produce. 
+
+𝑔1(𝑥)= [max{𝐹𝐺(𝑥, 𝑧)}-min{𝐹𝐺(𝑥, 𝑧)}];         (1)
+
+2)	Transmission ratio is calculated based on actuating force with respect to the minimum gripping force applied. For this condition to be efficient, our minimum gripping force should be higher;
+
+𝑔2(𝑥) = ((𝐹𝐴(𝑥, 𝑧))/( min{𝐹𝐺(𝑥, 𝑧)}));        (2)
+
+Validation Function:
+
+3)	Efficiency of the gripper is calculated by the maximum possible gripping force produced for given actuating force per jaw.
+
+𝑔3′ (𝑥) = [(max{𝐹𝐺(𝑥, 𝑧)})/(𝐹𝐴(𝑥, 𝑧)/3)];     (3)
+
+the ratio of the range of the gripper jaw width to that of the stroke would be the second validation function to verify the optimal sensitivity;
+
+𝑔4′ (𝑥)=([Y_MAX (x,z)- Y_MIN (x,z)]/Stroke)   (4)
+
+
+Thus, the hypothesized two primary objective functions which can be validated with the following two functions based on the optimal parameters acquired. From Equation (1) we can understand that our minimum gripping force should be lower to improve the range of gripping force that can be acquired;
+ However, Equation (4) is formulated such that our minimum gripping force needs to be higher for efficient mechanism of the gripping action and position. Our objective functions are contentious with each other and this necessitates use of multi-objective optimization for solving towards the optimal solution.
+
+
