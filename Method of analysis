@@ -1,0 +1,31 @@
+1.The multiple performance analysis can be conducted with the computation of deviation from the standard values and then finding the grey relational co-efficient for the generated data-sheet.
+
+2. normalization is carried out based on the requirement between the normalizing principles of 
+    I) higher the better
+    II) Lower is better
+    III) optimum the best
+    
+3.The signal to noise ratio is computed which again has three different calculation conditions
+
+C_i (n)=[(τ_i (k)-min⁡(τ_i (k)))/(max⁡(τ_i (k))-min⁡(τ_i (k)) )];	
+where,  
+𝜏𝑖(𝑘) = 𝑣𝑎𝑙𝑢𝑒 𝑎𝑓𝑡𝑒𝑟 𝑡ℎ𝑒 𝑔𝑟𝑒𝑦 𝑣𝑎𝑙𝑢𝑒 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑖𝑜𝑛;  
+Max𝜏𝑖(𝑘) = 𝑙𝑎𝑟𝑔𝑒𝑠𝑡 𝑣𝑎𝑙𝑢𝑒 𝑝𝑜𝑠𝑠𝑖𝑏𝑙𝑒 𝑓𝑜𝑟 𝑡ℎ𝑒 𝑘𝑡ℎ 𝑝𝑎𝑟𝑎𝑚𝑒𝑡𝑒𝑟;   
+Min𝜏𝑖(𝑘) = 𝑠𝑚𝑎𝑙𝑙𝑒𝑠𝑡 𝑣𝑎𝑙𝑢𝑒 𝑝𝑜𝑠𝑠𝑖𝑏𝑙𝑒 𝑓𝑜𝑟 𝑡ℎ𝑒 𝑘𝑡ℎ 𝑝𝑎𝑟𝑎𝑚𝑒𝑡𝑒r; 
+
+4. Deviation is calculated based on the signal-noise ratio generated. This eliminates the variance there by deducing the maximum probable force and gripper jaw width by statistical approach.
+
+μ_i=[(∆_min-φ⁡(∆_max ))/( ⁡(∆_i (k))-φ⁡(∆_max ) )];			
+Where, 
+∆𝑚𝑎𝑥= ⋁𝑗∈𝑖 𝑚𝑎𝑥 ||𝑥0(𝑘) − 𝑥𝑗(𝑘)||;  
+∆𝑚𝑖𝑛= ⋁𝑗∈𝑖 𝑚𝑖𝑛 ||𝑥0(𝑘) − 𝑥𝑗(𝑘)||;  
+∆𝑚𝑖𝑛= ||𝑥0(𝑘) − 𝑥𝑗(𝑘)||; 
+
+5. 	the average of the grey relational coefficient for each of the parameter. 
+ϑ_i=∑_(k=1)^n▒〖μ_i (k)〗				 
+For n = number of performance characteristics 
+
+The best probable solution is selected based on the statistical conditions and analyis
+
+    
+    
